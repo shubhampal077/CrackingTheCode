@@ -122,6 +122,16 @@ void LinkedList::Print()
        }
        cout<<endl;
 }
+void LinkedList::Print()
+{
+       Student *temp=head;
+       while(temp)
+       {
+              cout<<temp->name<<" "<<temp->id<<"--->";
+              temp=temp->link;
+       }
+       cout<<endl;
+}
 int32_t main()
 {
        ios_base::sync_with_stdio(false);
@@ -141,6 +151,6 @@ int32_t main()
        LL->Rreverse();
        LL->Print();
        return 0;
-       cout<<"just imagine";
-       cout<<"migrating to main branch";
+       
+       
 }

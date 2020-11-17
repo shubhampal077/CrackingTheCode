@@ -121,7 +121,16 @@ void constructGraph()
        }
        topsort();
 }
-
+// void LinkedList::Print()
+// {
+//        Student *temp=head;
+//        while(temp)
+//        {
+//               cout<<temp->name<<" "<<temp->id<<"--->";
+//               temp=temp->link;
+//        }
+//        cout<<endl;
+// }
 int32_t main()
 {
        ios_base::sync_with_stdio(false);
