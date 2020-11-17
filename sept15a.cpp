@@ -141,4 +141,5 @@ int32_t main()
        LL->Rreverse();
        LL->Print();
        return 0;
+       cout<<"just imagine";
 }
