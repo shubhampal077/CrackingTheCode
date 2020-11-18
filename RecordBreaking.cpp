@@ -15,5 +15,6 @@ int main()
        int a,b;
        cin>>a>>b;
        cout<<"sum is : "<<a+b;
+       cout<<"There is some error";
        return 0;
 }
